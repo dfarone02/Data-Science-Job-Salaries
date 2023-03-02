@@ -7,8 +7,10 @@ Logistic Regression
 --------------------
 Logistic regression estimates the probability of an event occurring (like if an individual IS a Data Scientist OR NOT). Since the outcome is a probability, the dependent variable is bounded between 0 (Values below 0.5 are NOT a Data Scientist) and 1 (Values equal or greater than 0.5 ARE a Data Scientist). Logistic regression takes the best combination of predictor variables to maximize the best parameter estimate (Data Scientist/NOT). 
 ![image](https://user-images.githubusercontent.com/97635420/222556592-36500ddd-0d5e-4164-aebe-8eeaeccc6c3d.png)
+
 The above image is the representation of the logistic regression where the natural log of the probability that an individual is a Data Scientist is divided by the probability they are not is set equal to the model intercept and the rate of change for an increase of 1 for a given parameter.
 ![image](https://user-images.githubusercontent.com/97635420/222558372-cc5bfbb8-747b-450a-b55c-6634ebffeda8.png)
+
 Alternatively, the model can be represented in a way that is just like the Ordinary Least Squares Regression. The only difference is that the values of the model intercept and the rate of change for an increase of 1 for a given parameter are used to estimate the probability of an observation belonging to a class (Data Scientist Y/N) instead of a value for that observation.
 
 
