@@ -15,7 +15,17 @@ The above image is the representation of the logistic regression where the natur
 
 Alternatively, the model can be represented in a way that is just like the Ordinary Least Squares Regression. The only difference is that the values of the model intercept and the rate of change for an increase of 1 for a given parameter are used to estimate the probability of an observation belonging to a class (Data Scientist Y/N) instead of a value for that observation.
 
+Gradient Boosted Decision Tree
+------------------------------
+A decision tree is built upon a series of questions to classify observations in a dataset. While it cannot be represented in the form of a linear equation, it is very useful in a visual representation in a tree-shaped image like the one below as an example:
 
+![image](https://user-images.githubusercontent.com/97635420/222566572-c6ba908a-b55c-4683-a8fe-f9b7a18a9cb3.png)
+
+
+References
+---------
+https://www.ibm.com/topics/logistic-regression
+https://towardsdatascience.com/gradient-boosted-decision-trees-explained-9259bd8205af
 
 Project Organization
 ------------
