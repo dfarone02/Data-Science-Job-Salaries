@@ -5,7 +5,7 @@ This project features a dataset consisting of 700 individuals in 4 career fields
 
 Logistic Regression
 --------------------
-Logistic regression estimates the probability of an event occurring (like if an individual IS a Data Scientist OR NOT). Since the outcome is a probability, the dependent variable is bounded between 0 (Values below 0.5 are NOT a Data Scientist) and 1 (Values equal or greater than 0.5 ARE a Data Scientist). Logistic regression takes the best combination of predictor variables to maximize the best parameter estimate (Data Scientist/NOT). 
+Logistic regression estimates the probability of an event occurring (like Data Scientist OR NOT). Since the outcome is a probability, the dependent variable is bounded between 0 (Values below 0.5 are NOT a Data Scientist) and 1 (Values equal or greater than 0.5 ARE a Data Scientist). Logistic regression takes the best combination of predictor variables to maximize the best parameter estimate (Data Scientist/NOT). 
 ![image](https://user-images.githubusercontent.com/97635420/222556592-36500ddd-0d5e-4164-aebe-8eeaeccc6c3d.png)
 
 The above image is the representation of the logistic regression where the natural log of the probability that an individual is a Data Scientist is divided by the probability they are not is set equal to the model intercept and the rate of change for an increase of 1 for a given parameter.
