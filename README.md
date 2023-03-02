@@ -16,7 +16,7 @@ Alternatively, the model can be represented in a way that is just like the Ordin
 Project Organization
 ------------
 
-![Uploading image.png…]()    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
