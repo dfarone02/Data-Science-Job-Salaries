@@ -21,6 +21,7 @@ A decision tree is built upon a series of questions to classify observations in 
 
 ![image](https://user-images.githubusercontent.com/97635420/222566572-c6ba908a-b55c-4683-a8fe-f9b7a18a9cb3.png)
 
+
 One decision tree is prone to overfitting, so methods like gradient boosting combines a set of decision trees for a better fit. As opposed to a bootstrapped method of modeling, each new tree is fit on the residuals of the previous tree, and thus seeks to minimize the errors each go using a logarithmic loss function. The final tree takes the best elements fo each tree to produce the strongest results. Each step The model performs quite slowly, but a model that takes more time to learn produces better findings. 
 References
 ---------
