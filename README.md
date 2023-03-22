@@ -32,7 +32,7 @@ One decision tree is prone to overfitting, so methods like gradient boosting com
 
 References
 ---------
-https://www.ibm.com/topics/logistic-regression
+https://www.ibm.com/topics/logistic-regression <br>
 https://towardsdatascience.com/gradient-boosted-decision-trees-explained-9259bd8205af
 
 
