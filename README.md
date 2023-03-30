@@ -30,7 +30,7 @@ One decision tree is prone to overfitting, so we compute a large number of decis
 
 Multiple Output Classification (using Random Forest)
 -----------------------------------------------------
-This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model like the one below. 
+This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model like this one: 
 
 ![image](https://user-images.githubusercontent.com/97635420/228935501-d3c6897f-939a-488d-a93f-f5567aea787f.png)
 
