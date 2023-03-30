@@ -6,7 +6,7 @@ In the Spring of 2023, I spent most of my final semester as an undergraudate on 
 
 Solution
 ---------------------
-The answer is through classification models that are much more advanced than I have examined in this repository. This project features a dataset consisting of 700 individuals in 4 career fields of Data Science:( Data Scientist, Data Analyst, Machine Learning Engineer, Data Engineer). The dataset contains features such as the individual's degree, work experience, company, geographic location, age, and of course, job title and salary. After performing some Exploratory Data Analysis, Feature Engineering, and Testing and Training Data Splits, this project produced 2 models. The first, a Decision Tree for each job title (Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer) to deterime if an individual is in that job position or not. The second set of models is a Boosted Decision Tree Classifier model, which is a more advanced method of classification, but looks to achieve the same objective as the logistic regression model. Both of these models will be evaluated and explained in further detail. The title of Data Scientist is generally the most desired title of these 4 job areas. It also appears the most in the dataset of any job title. I have the goal of the Data Scientist field being the best classified of the four job titles.
+The answer is through classification models that are much more advanced than I have examined in this repository. This project features a dataset consisting of 700 individuals in 4 career fields of Data Science:( Data Scientist, Data Analyst, Machine Learning Engineer, Data Engineer). The dataset contains features such as the individual's degree, work experience, company, geographic location, age, and of course, job title and salary. After performing some Exploratory Data Analysis, Feature Engineering, and Testing and Training Data Splits, this project produced 2 models. The first, a Decision Tree for each job title (Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer) to deterime if an individual is in that job position or not. The second set of models is a Mutlti-Label Multi-Output Classifier (using Random Forest Classifier) model, which is a more advanced method of classification, but looks to achieve the same objective as the logistic regression model, but all in one model instead of 4 different iterations of logistic regression. Both of these models will be evaluated and explained in further detail. The title of Data Scientist is generally the most desired title of these 4 job areas. It also appears the most in the dataset of any job title. I have the goal of the Data Scientist field being the best classified of the four job titles.
 
 Logistic Regression
 --------------------
@@ -20,20 +20,25 @@ The above image is the representation of the logistic regression where the natur
 
 Alternatively, the model can be represented in a way that is just like the Ordinary Least Squares Regression. The only difference is that the values of the model intercept and the rate of change for an increase of 1 for a given parameter are used to estimate the probability of an observation belonging to a class (Data Scientist Y/N) instead of a value for that observation.
 
-Gradient Boosted Decision Tree
+Random Forests
 ------------------------------
 A decision tree is built upon a series of questions to classify observations in a dataset. While it cannot be represented in the form of a linear equation, it is very useful in a visual representation in a tree-shaped image like the one below as an example:
 
 ![image](https://user-images.githubusercontent.com/97635420/222566572-c6ba908a-b55c-4683-a8fe-f9b7a18a9cb3.png)
 
-One decision tree is prone to overfitting, so methods like gradient boosting combines a set of decision trees for a better fit. As opposed to a bootstrapped method of modeling, each new tree is fit on the residuals of the previous tree, and thus seeks to minimize the errors each go using a logarithmic loss function. The final tree takes the best elements fo each tree to produce the strongest results each step. The model performs quite slowly, but a model that takes more time to learn produces better findings. It is worth noting that slower performance requires more trees to optimize, but as a user adds more trees to the model, unlike a decision tree, a user should be careful with overfitting in the model and the sensitivity to outliers. Despite that the gradient boosting decision tree is more efficient and accurate than most classification and regression models and can handle mixed types of features without any preprocessing.
-    
+One decision tree is prone to overfitting, so we compute a large number of decision trees which operate as a collective of trees (aka a Forest). Each tree spits out its own prediction, and the individual tree in the Random Forest with the best scores becomes THE prediction for the Random Forest Model. A Random Forest almost always out performs a single Decision Tree because multiple uncorrelated models can work together to produce aggregate predictions that are more accuracte than any individual prediction. The trees in the Forest essentially protect each other from individual errors through a process called bagging. The bagging process allows each tree to train on random and different sets of data, but each tree in the random forest has a different set of features for its decision making criteria.
+
+Multiple Output Classification (using Random Forest)
+-----------------------------------------------------
+This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model. Except, we are looking for more than 1 target variable, which all must be binary. In the context of this problem, there are 4 targer variables in this classifier for Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer. There are only a handfull of packages that can handle multiplke output target variables, and the one we are using for this probelm is the MultiOutputClassifier from scikit learnm which fits one binary classifier per each career field variable. Like a random forest, model scores, plots, and confusion matrices can be generated, but it is considerably more tedious and computationally more expensive to separate the target classes and iterate through the predictions to analyze not only the entire model's predictive power, but also the predicitve power of each sub-model for each of our 4 job title classes.
+
+
 <b> YOU AIN'T DONE YET</b>
 
 References
 ---------
 https://www.ibm.com/topics/logistic-regression <br>
-https://towardsdatascience.com/gradient-boosted-decision-trees-explained-9259bd8205af
+https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 
 
 Project Organization 
