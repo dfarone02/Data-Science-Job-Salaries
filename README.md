@@ -32,7 +32,7 @@ Multiple Output Classification (using Random Forest)
 -----------------------------------------------------
 This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model like the one below. 
 
-![image]https://miro.medium.com/v2/resize:fit:640/format:webp/1*VHDtVaDPNepRglIAv72BFg.jpeg
+![image](https://user-images.githubusercontent.com/97635420/228935501-d3c6897f-939a-488d-a93f-f5567aea787f.png)
 
 Except, we are looking for more than 1 target variable, which all must be binary. In the context of this problem, there are 4 targer variables in this classifier for Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer. There are only a handfull of packages that can handle multiplke output target variables, and the one we are using for this probelm is the MultiOutputClassifier from scikit learnm which fits one binary classifier per each career field variable. Like a random forest, model scores, plots, and confusion matrices can be generated, but it is considerably more tedious and computationally more expensive to separate the target classes and iterate through the predictions to analyze not only the entire model's predictive power, but also the predicitve power of each sub-model for each of our 4 job title classes.
 
