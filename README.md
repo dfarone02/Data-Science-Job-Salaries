@@ -38,7 +38,7 @@ Except, we are looking for more than 1 target variable, which all must be binary
 
 Exploratory Data Analysis
 ---------------------------
-
+data/external/ds_salaries_external.csv
 
 Feature Engineering
 ---------------------------
