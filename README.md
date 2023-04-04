@@ -35,6 +35,7 @@ Except, we are looking for more than 1 target variable, which all must be binary
 
 Job Title Classification Implementation
 ---------------------------------------
+
 ## Exploratory Data Analysis
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
 
