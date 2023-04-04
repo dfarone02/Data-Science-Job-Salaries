@@ -38,23 +38,23 @@ Except, we are looking for more than 1 target variable, which all must be binary
 
 Exploratory Data Analysis
 ---------------------------
-data/external/ds_salaries_external.csv
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
 
 Feature Engineering
 ---------------------------
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Feature%20Engineering.md
 
 Training and Testing Data Sets
 --------------------------------
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/64548927b5a16ab7bbf84a4bd80516371e33ad7b/reports/Training%20and%20Testing%20Sets.md
 
 Implementing Logistic Regression
 ---------------------------------
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a24512f0b55f9c27d3e794fab0b8878c267d86ae/reports/Logistic%20Regression.md
 
 Implementing Multi-Output Multi-Level Random Forest Classification
 -------------------------------------------------------------------
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/fc3064764eb5161ceb7ba0fcfa1b4f7d6aca9b74/reports/Multi%20Classification.md
 
 References
 ---------
