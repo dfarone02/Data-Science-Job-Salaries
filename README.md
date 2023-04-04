@@ -19,14 +19,14 @@ The above image is the representation of the logistic regression where the natur
 
 Alternatively, the model can be represented in a way that is just like the Ordinary Least Squares Regression. The only difference is that the values of the model intercept and the rate of change for an increase of 1 for a given parameter are used to estimate the probability of an observation belonging to a class (Data Scientist Y/N) instead of a value for that observation.
 
-## What are Random Forests?
+### What are Random Forests?
 A decision tree is built upon a series of questions to classify observations in a dataset. While it cannot be represented in the form of a linear equation, it is very useful in a visual representation in a tree-shaped image like the one below as an example:
 
 ![image](https://user-images.githubusercontent.com/97635420/222566572-c6ba908a-b55c-4683-a8fe-f9b7a18a9cb3.png)
 
 One decision tree is prone to overfitting, so we compute a large number of decision trees which operate as a collective of trees (aka a Forest). Each tree spits out its own prediction, and the individual tree in the Random Forest with the best scores becomes THE prediction for the Random Forest Model. A Random Forest almost always out performs a single Decision Tree because multiple uncorrelated models can work together to produce aggregate predictions that are more accuracte than any individual prediction. The trees in the Forest essentially protect each other from individual errors through a process called bagging. The bagging process allows each tree to train on random and different sets of data, but each tree in the random forest has a different set of features for its decision making criteria.
 
-## What on Earth is Multi-Output Mutlti-Level Classification (using Random Forest)?
+### What on Earth is Multi-Output Mutlti-Level Classification (using Random Forest)?
 This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model like this one: 
 
 ![image](https://user-images.githubusercontent.com/97635420/228935501-d3c6897f-939a-488d-a93f-f5567aea787f.png)
@@ -36,19 +36,19 @@ Except, we are looking for more than 1 target variable, which all must be binary
 Job Title Classification Implementation
 ---------------------------------------
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
 
-## Feature Engineering
+### Feature Engineering
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Feature%20Engineering.md
 
-## Training and Testing Data Sets
+### Training and Testing Data Sets
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/64548927b5a16ab7bbf84a4bd80516371e33ad7b/reports/Training%20and%20Testing%20Sets.md
 
-## Logistic Regression
+### Logistic Regression
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a24512f0b55f9c27d3e794fab0b8878c267d86ae/reports/Logistic%20Regression.md
 
-## Multi-Output Multi-Level Random Forest Classification
+### Multi-Output Multi-Level Random Forest Classification
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/fc3064764eb5161ceb7ba0fcfa1b4f7d6aca9b74/reports/Multi%20Classification.md
 
 References
