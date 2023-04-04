@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/dfarone02/Data-Science-Job-Salaries/main/src/r
 Each of the below implementation sections will have you click a link to view a description and summary for that section for the sake of saving space on this README.md file.
 
 ### Exploratory Data Analysis
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
 
 ### Feature Engineering
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Feature%20Engineering.md
