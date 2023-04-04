@@ -1,1 +1,2 @@
-
+data/external/ds_salaries_external.csv
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/200620f4b7e4a4064750887776d182f0ef495b19/notebooks/Feature%20Engineering.ipynb
