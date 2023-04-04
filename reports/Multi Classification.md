@@ -5,4 +5,4 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/64548927b5a16ab7bbf8
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/64548927b5a16ab7bbf84a4bd80516371e33ad7b/notebooks/AdvancedClassification.ipynb
 
 ### Back to Main Page: <br>
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/2cdde691b82e1463ec560e61b672dae4931790c4/README.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/tree/2cdde691b82e1463ec560e61b672dae4931790c4#readme
