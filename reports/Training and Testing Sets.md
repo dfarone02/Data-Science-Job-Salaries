@@ -2,4 +2,4 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/200620f4b7e4a4064750
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/200620f4b7e4a4064750887776d182f0ef495b19/notebooks/TrainTestSplit.ipynb
 
 ### Back to Main Page: <br>
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/2cdde691b82e1463ec560e61b672dae4931790c4/README.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/tree/2cdde691b82e1463ec560e61b672dae4931790c4#readme
