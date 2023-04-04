@@ -8,8 +8,7 @@ Solution
 ---------------------
 The answer is through classification models that are much more advanced than I have examined in this repository. This project features a dataset consisting of 700 individuals in 4 career fields of Data Science:( Data Scientist, Data Analyst, Machine Learning Engineer, Data Engineer). The dataset contains features such as the individual's degree, work experience, company, geographic location, age, and of course, job title and salary. After performing some Exploratory Data Analysis, Feature Engineering, and Testing and Training Data Splits, this project produced 2 models. The first, a Decision Tree for each job title (Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer) to deterime if an individual is in that job position or not. The second set of models is a Mutlti-Label Multi-Output Classifier (using Random Forest Classifier) model, which is a more advanced method of classification, but looks to achieve the same objective as the logistic regression model, but all in one model instead of 4 different iterations of logistic regression. Both of these models will be evaluated and explained in further detail. The title of Data Scientist is generally the most desired title of these 4 job areas. It also appears the most in the dataset of any job title. I have the goal of the Data Scientist field being the best classified of the four job titles.
 
-What is Logistic Regression?
-----------------------------
+# What is Logistic Regression?
 Logistic regression estimates the probability of an event occurring (like Data Scientist OR NOT). Since the outcome is a probability, the dependent variable is bounded between 0 (Values below 0.5 are NOT a Data Scientist) and 1 (Values equal or greater than 0.5 ARE a Data Scientist). Logistic regression takes the best combination of predictor variables to maximize the best parameter estimate (Data Scientist/NOT). 
 
 ![image](https://user-images.githubusercontent.com/97635420/222556592-36500ddd-0d5e-4164-aebe-8eeaeccc6c3d.png)
@@ -20,16 +19,14 @@ The above image is the representation of the logistic regression where the natur
 
 Alternatively, the model can be represented in a way that is just like the Ordinary Least Squares Regression. The only difference is that the values of the model intercept and the rate of change for an increase of 1 for a given parameter are used to estimate the probability of an observation belonging to a class (Data Scientist Y/N) instead of a value for that observation.
 
-What are Random Forests?
---------------------------
+# What are Random Forests?
 A decision tree is built upon a series of questions to classify observations in a dataset. While it cannot be represented in the form of a linear equation, it is very useful in a visual representation in a tree-shaped image like the one below as an example:
 
 ![image](https://user-images.githubusercontent.com/97635420/222566572-c6ba908a-b55c-4683-a8fe-f9b7a18a9cb3.png)
 
 One decision tree is prone to overfitting, so we compute a large number of decision trees which operate as a collective of trees (aka a Forest). Each tree spits out its own prediction, and the individual tree in the Random Forest with the best scores becomes THE prediction for the Random Forest Model. A Random Forest almost always out performs a single Decision Tree because multiple uncorrelated models can work together to produce aggregate predictions that are more accuracte than any individual prediction. The trees in the Forest essentially protect each other from individual errors through a process called bagging. The bagging process allows each tree to train on random and different sets of data, but each tree in the random forest has a different set of features for its decision making criteria.
 
-What on Earth is Multi-Output Mutlti-Level Classification (using Random Forest)?
----------------------------------------------------------------------------------
+# What on Earth is Multi-Output Mutlti-Level Classification (using Random Forest)?
 This approach to classification is based off a Random Forest model, and functions almost exactly like a Random Forest model like this one: 
 
 ![image](https://user-images.githubusercontent.com/97635420/228935501-d3c6897f-939a-488d-a93f-f5567aea787f.png)
