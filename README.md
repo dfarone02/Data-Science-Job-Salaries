@@ -90,19 +90,19 @@ https://raw.githubusercontent.com/dfarone02/Data-Science-Job-Salaries/main/src/r
 Each of the below implementation sections will have you click a link to view a description and summary for that section for the sake of saving space on this README.md file.
 
 ### Exploratory Data Analysis
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/7c80eb81ec86798fc7f45d1440d6458b356e00d0/reports/Exploratory%20Data%20Analysis.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/e1a6401b99b7942b42576af30f130d6d5ff67703/reports/Exploratory%20Data%20Analysis.md
 
 ### Feature Engineering
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a3100bd1607bc8a4f9212218fe074a2e60a971f3/reports/Feature%20Engineering.md
 
 ### Training and Testing Data Sets
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/64548927b5a16ab7bbf84a4bd80516371e33ad7b/reports/Training%20and%20Testing%20Sets.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/e1a6401b99b7942b42576af30f130d6d5ff67703/reports/Training%20and%20Testing%20Sets.md
 
 ### Logistic Regression
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a24512f0b55f9c27d3e794fab0b8878c267d86ae/reports/Logistic%20Regression.md
+
 
 ### Multi-Output Multi-Level Random Forest Classification
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/fc3064764eb5161ceb7ba0fcfa1b4f7d6aca9b74/reports/Multi%20Classification.md
+
 
 The Big Takeaways
 -------------------
