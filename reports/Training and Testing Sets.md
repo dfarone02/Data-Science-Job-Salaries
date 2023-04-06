@@ -10,8 +10,7 @@ Data Analyst: <br>
  - Created "X" dataset from all variables except "Data Analyst"
  - Created "y" dataset from "Data Analyst"
  - Used sklearn train-test-split for 80% of the data as training and 20% remaining of random sample as testing data
- - Results:
-    - 
+ - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_X_Test.csv
 
 
 
