@@ -25,17 +25,17 @@ Data Engineer: <br>
  - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Engineer/DataEngineer_y_Train.csv
 
 Data Scientist: <br>
- - Created "X" dataset from all variables except "Data Analyst"
- - Created "y" dataset from "Data Analyst"
+ - Created "X" dataset from all variables except "Data Scientist"
+ - Created "y" dataset from "Data Scientist"
  - Used sklearn train-test-split for 80% of the data as training and 20% remaining of random sample as testing data
- - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_X_Test.csv
- - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_X_Train.csv
- - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_y_Test.csv
- - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_y_Train.csv
+ - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Scientist/DataScientist_X_Test.csv
+ - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Scientist/DataScientist_X_Train.csv
+ - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Scientist/DataScientist_y_Test.csv
+ - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Scientist/DataScientist_y_Train.csv
 
 Machine Learning Engineer: <br>
- - Created "X" dataset from all variables except "Data Analyst"
- - Created "y" dataset from "Data Analyst"
+ - Created "X" dataset from all variables except "Machine Learning Engineer"
+ - Created "y" dataset from "Machine Learning Engineer"
  - Used sklearn train-test-split for 80% of the data as training and 20% remaining of random sample as testing data
  - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_X_Test.csv
  - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/a4aad82a8013e1804d6aa6cf35cf025f9695a60e/data/processed/Data%20Analyst/DataAnalyst_X_Train.csv
