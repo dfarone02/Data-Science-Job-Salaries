@@ -90,16 +90,16 @@ https://raw.githubusercontent.com/dfarone02/Data-Science-Job-Salaries/main/src/r
 Each of the below implementation sections will have you click a link to view a description and summary for that section for the sake of saving space on this README.md file.
 
 ### Exploratory Data Analysis
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/e1a6401b99b7942b42576af30f130d6d5ff67703/reports/Exploratory%20Data%20Analysis.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Exploratory%20Data%20Analysis.md
 
 ### Feature Engineering
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/de9ac806e61bff11c35f5557a36bf31572041442/reports/Feature%20Engineering.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Feature%20Engineering.md
 
 ### Training and Testing Data Sets
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/e1a6401b99b7942b42576af30f130d6d5ff67703/reports/Training%20and%20Testing%20Sets.md
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Training%20and%20Testing%20Sets.md
 
 ### Logistic Regression
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Logistic%20Regression.md
 
 ### Multi-Output Multi-Level Random Forest Classification
 
