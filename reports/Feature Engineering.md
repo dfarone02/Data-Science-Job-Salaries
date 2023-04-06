@@ -20,4 +20,4 @@ To begin this process, I first looked at the unique values for each variable in 
  Will be used to create the training and testing datasets to build the 2 classification models in this project.
     
 ### Back to Main Page: <br>
-https://github.com/dfarone02/Data-Science-Job-Salaries/tree/2cdde691b82e1463ec560e61b672dae4931790c4#readme
+https://github.com/dfarone02/Data-Science-Job-Salaries#the-big-takeaways
