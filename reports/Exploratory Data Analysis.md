@@ -1,5 +1,5 @@
 To view the raw data pulled from kaggle:
-https://github.com/dfarone02/Data-Science-Job-Salaries/blob/4765beb94d6decc2e0fc6ddbdfcc063f1de2cd09/data/external/ds_salaries_external.csv
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/external/ds_salaries_external.csv
 
 Location for the notebook to create pandas profiling report:
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/200620f4b7e4a4064750887776d182f0ef495b19/notebooks/EDA.ipynb
