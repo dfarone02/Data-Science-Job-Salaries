@@ -4,25 +4,25 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/notebooks/Logis
 
 Training and Testing Data Sets found at the links below:
 
-Data Analyst:
+Data Analyst: <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Analyst/DataAnalyst_X_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Analyst/DataAnalyst_X_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Analyst/DataAnalyst_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Analyst/DataAnalyst_y_Train.csv <br>
 
-Data Engineer:
+Data Engineer: <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_X_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_X_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_y_Train.csv <br>
 
-Data Scientist:
+Data Scientist: <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_X_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_X_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_y_Train.csv <br>
 
-Machine Learning Engineer:
+Machine Learning Engineer: <br>
 https://github.com/dfarone02/Data-Science-JobSalaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineer_X_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineer_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineer_y_Train.csv <br>
