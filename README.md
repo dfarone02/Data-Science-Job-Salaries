@@ -102,7 +102,7 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Trainin
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Logistic%20Regression.md
 
 ### Multi-Output Multi-Level Random Forest Classification
-
+https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Multi%20Classification.md
 
 The Big Takeaways
 -------------------
