@@ -139,6 +139,15 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/reports/Multi%2
 
 The Big Takeaways
 -------------------
+I decided to first use a Logistic Regression model to classify individuals as a Data Analyst, Data Engineer, Data Scientist, or Machine Learning Engineer. I chose that model format because it is the simplest classification model, and EASIEST to understand by far, since it is in linear regression form. The specificity, sensitivity, and AUC scores for the Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer models were practically useless as these models struggled to classify a job as the specific field. That being said, these models were very accurate...at predicting that an individual did not belong in that specific career field, which wa not the accuracy measure I had hoped for by any means. But, this could definitely still be useful for a site like LinkedIn as they could filter out job titles that did not match an individual's search.<br>
+
+I was curious to see if I could classify all 4 career fields at once using ONE model. Thanks to MultiOuput MultiClassifcation using Random Forest, I was able to accomplish this. Unfortunately, taking 4 variables at once when models usually only take one is about as difficult as you would expect. Accuracy, Sensitivity, and Specificity were all below 50%. That is pretty awful. But other than accuracy, much better than any of the logisitc regression models. In breaking down the MultiClassification model to look at each career field. Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer outperformed their Logistic Regression counterpart. <br>
+
+This is an instance where just because a model is more interpretable (Logistic Regression) does not make it a better performing one (MultiClassification)<br>
+
+I wanted Data Scientist to be the best classified position of the 4, which it easily was in the Logistic Regression. However, it would be much safer to look into the MultiClassification model's performance. In that case, Data Analyst is very reliable to look at. I think that Data Analyst being the best classified position would be most beneficital to a JobBoard like Indeed.com because that is considered the entry position in Data Science and what the most individuals are going to look for. <br>
+
+If anything, this project shows just how similar careers in Data Science are and how arbitrary the job title is. So... the next time you are on a Job Board complaining about how bad your matches and suggested jobs are...cut them some slack because it is surprisingly difficult to distinguish between job titles.
 
 References
 ---------
