@@ -87,6 +87,35 @@ This approach to classification is based off a Random Forest model, and function
 
 Except, we are looking for more than 1 target variable, which all must be binary. In the context of this problem, there are 4 targer variables in this classifier for Data Analyst, Data Engineer, Data Scientist, and Machine Learning Engineer. There are only a handfull of packages that can handle multiplke output target variables, and the one we are using for this probelm is the MultiOutputClassifier from scikit learnm which fits one binary classifier per each career field variable. Like a random forest, model scores, plots, and confusion matrices can be generated, but it is considerably more tedious and computationally more expensive to separate the target classes and iterate through the predictions to analyze not only the entire model's predictive power, but also the predicitve power of each sub-model for each of our 4 job title classes.
 
+### Let's Take a Look at What a Confusion Matrix is
+
+A confusion matrix is essentially a graphical depiction of the results of a classification model like the one shown below:
+
+![image](https://user-images.githubusercontent.com/97635420/232326526-a09d5fb6-b839-470e-9796-543fb51de6a4.png)
+
+Let's explain this in terms of my job title classification using data scientist as an example: <br>
+    True Positive (Top Left): The predicted value = Data Scientist and the actual value = Data Scientist <br>
+    False Positive (Top Right): The predicted value = Data Scientist and the actual values = Not Data Scientist <br>
+    False Negative (Bottom Left): The predicted value = Not Data Scientist and the actual value = Data Scientist <br>
+    True Negative (Bottom Right): The predicted value = Not Data Scientist and the actual value = Not Data Scientist <br>
+ 
+### Let's Understand What Measures Evaluate Classification Models
+
+Accuracy: measure of how many observations are predicted correctly <br>
+![image](https://user-images.githubusercontent.com/97635420/232326894-d6595737-ac3d-4633-a743-611a7fe73996.png) <br>
+
+Sensitivity: How many Data Scientists were predicted correctly <br>
+![image](https://user-images.githubusercontent.com/97635420/232326975-95c3fa17-0cb1-4f55-9489-55cfa2efadba.png)<br>
+
+Specificity: How many Data Scientists are actually Data Scientists <br>
+![image](https://user-images.githubusercontent.com/97635420/232327047-3a6f5426-a675-48e9-84d0-168a68d3a7b8.png) <br>
+
+AUC: How efficient the model is at distinguishing between a Data Scientist and Not Data Scientist<br>
+Calculation comes from integral using True Positives and False Positives from the predicted model and is not worth showing<br>
+
+***It is worth noting that classification models will not classify observations as negative if the model cannot distinguish between Data Scientist or Not***
+***This means that Specificity and Sensitivity will be ZERO or close to it without any negatives in the confusion matrix***
+
 Job Title Classification Implementation
 ---------------------------------------
 To run the notebooks for implementation make sure you save this document to your working directory:
@@ -116,3 +145,5 @@ References
 https://www.ibm.com/topics/logistic-regression <br>
 https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 https://towardsdatascience.com/essential-guide-to-multi-class-and-multi-output-algorithms-in-python-3041fea55214
+https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+https://towardsdatascience.com/how-to-calculate-use-the-auc-score-1fc85c9a8430
