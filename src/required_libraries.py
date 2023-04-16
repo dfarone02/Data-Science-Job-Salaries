@@ -38,6 +38,7 @@ from sklearn.metrics import plot_confusion_matrix, accuracy_score
 from sklearn.metrics import roc_curve, auc, plot_roc_curve, roc_auc_score
 from sklearn.metrics import roc_curve, auc, roc_auc_score
 from sklearn.metrics import plot_roc_curve
+from sklearn.multioutput import MultiOutputClassifier
 
 from tqdm import tqdm
 import ydata_profiling
