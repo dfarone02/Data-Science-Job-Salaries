@@ -23,6 +23,11 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_X_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Engineer/DataEngineer_y_Train.csv <br>
+After running a logistic regression with 1000 iterations, the resulting confusion matrix is below:<br>
+![image](https://user-images.githubusercontent.com/97635420/232327913-12b45370-86f0-4de6-97a2-f7ac24476e91.png)<br>
+As you can see, the model did not classify any negatives, so the predictor variables were too hard to distinguish among Data Analyst or other job fields, so our Sensitivity and Specificity measures were 0.0. Dpesite that, we had an accuracy rate of 77.05%, which is quite good all things considered. <br>
+None of the variables were very influential in determining in one was a Data Analyst or not, but work_year had the highest negative impact on the model meaning the more recent the year, the less likely one is to be a Data Analyst. <br>
+Conversely, remote_ratio had the highest positive impact on the model. So, the more remote a postition was, the more likely one is to be a Data Analyst
 
 Data Scientist
 ----------------
@@ -31,6 +36,11 @@ https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_X_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Data%20Scientist/DataScientist_y_Train.csv <br>
+After running a logistic regression with 1000 iterations, the resulting confusion matrix is below:<br>
+![image](https://user-images.githubusercontent.com/97635420/232327939-18c32558-c63b-4a30-b673-d8fba440d5d2.png)<br>
+As you can see, the model did not classify any negatives, so the predictor variables were too hard to distinguish among Data Analyst or other job fields, so our Sensitivity and Specificity measures were 0.0. Dpesite that, we had an accuracy rate of 77.05%, which is quite good all things considered. <br>
+None of the variables were very influential in determining in one was a Data Analyst or not, but work_year had the highest negative impact on the model meaning the more recent the year, the less likely one is to be a Data Analyst. <br>
+Conversely, remote_ratio had the highest positive impact on the model. So, the more remote a postition was, the more likely one is to be a Data Analyst
 
 Machine Learning Engineer
 -------------------------
@@ -39,6 +49,11 @@ https://github.com/dfarone02/Data-Science-JobSalaries/blob/main/data/processed/M
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineer_y_Test.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineer_y_Train.csv <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/Machine%20Learning%20Engineer/Machine_Learning_Engineerr_X_Train.csv <br>
+After running a logistic regression with 1000 iterations, the resulting confusion matrix is below:<br>
+![image](https://user-images.githubusercontent.com/97635420/232327967-b91b3574-5ec0-4851-8fef-ec9f16706118.png)<br>
+As you can see, the model did not classify any negatives, so the predictor variables were too hard to distinguish among Data Analyst or other job fields, so our Sensitivity and Specificity measures were 0.0. Dpesite that, we had an accuracy rate of 77.05%, which is quite good all things considered. <br>
+None of the variables were very influential in determining in one was a Data Analyst or not, but work_year had the highest negative impact on the model meaning the more recent the year, the less likely one is to be a Data Analyst. <br>
+Conversely, remote_ratio had the highest positive impact on the model. So, the more remote a postition was, the more likely one is to be a Data Analyst
 
 ### Back to Main Page: <br>
 https://github.com/dfarone02/Data-Science-Job-Salaries#multi-output-multi-level-random-forest-classification
