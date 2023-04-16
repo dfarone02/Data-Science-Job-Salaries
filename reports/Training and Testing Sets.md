@@ -52,4 +52,4 @@ Machine Learning Engineer: <br>
  - https://github.com/dfarone02/Data-Science-Job-Salaries/blob/main/data/processed/All%20Fields/y_Train.csv
 
 ### Back to Main Page: <br>
-https://github.com/dfarone02/Data-Science-Job-Salaries/tree/2cdde691b82e1463ec560e61b672dae4931790c4#readme
+https://github.com/dfarone02/Data-Science-Job-Salaries#logistic-regression
