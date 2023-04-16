@@ -113,7 +113,7 @@ Specificity: How many Data Scientists are actually Data Scientists <br>
 AUC: How efficient the model is at distinguishing between a Data Scientist and Not Data Scientist<br>
 Calculation comes from integral using True Positives and False Positives from the predicted model and is not worth showing<br>
 
-***It is worth noting that classification models will not classify observations as negative if the model cannot distinguish between Data Scientist or Not*** <br>
+***Classification models will not classify observations as negative if the model cannot distinguish between Data Scientist or Not*** <br>
 ***This means that Specificity and Sensitivity will be ZERO or close to it without any negatives in the confusion matrix***
 
 Job Title Classification Implementation
